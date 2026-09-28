@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vogeo-gaze"
+version = "1.0.0"
+description = "Calibration-free, geometry-aware gaze tracking for clinical video-oculography (MICCAI 2026)"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+requires-python = ">=3.10"
+dependencies = ["torch>=2.1", "monai>=1.3", "opencv-python>=4.8", "numpy>=1.24", "pandas>=2.0",
+                "scipy>=1.10", "tqdm>=4.60"]
+
+[project.urls]
+Repository = "https://github.com/DSGZ-MotionLab/VOGeo-Gaze"
+
+[project.scripts]
+vogeo-gaze = "vogeo_gaze.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["vogeo_gaze*"]
+
+[tool.setuptools.package-data]
+vogeo_gaze = ["weights/*.pt"]

@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the MICCAI 2026 paper."
+title: "VOGeo-Gaze"
+abstract: >-
+  Calibration-free, geometry-aware deep learning for real-time gaze tracking
+  in clinical video-oculography.
+type: software
+license: Apache-2.0
+repository-code: "https://github.com/DSGZ-MotionLab/VOGeo-Gaze"
+authors:
+  - family-names: Zhao
+    given-names: Jingkang
+  - family-names: Ahmadi
+    given-names: Seyed-Ahmad
+  - family-names: Decker
+    given-names: Julian
+  - family-names: zu Eulenburg
+    given-names: Peter
+  - family-names: Zwergal
+    given-names: Andreas
+  - family-names: Flanagin
+    given-names: Virginia L.
+  - family-names: Wuehr
+    given-names: Max
+preferred-citation:
+  type: conference-paper
+  title: "VOGeo-Gaze: Calibration-Free, Geometry-Aware Deep Learning for Real-Time Gaze Tracking in Clinical Video-Oculography"
+  year: 2026
+  month: 9
+  collection-title: "Medical Image Computing and Computer Assisted Intervention -- MICCAI 2026"
+  publisher:
+    name: Springer Nature Switzerland
+  volume: 16896
+  authors:
+    - family-names: Zhao
+      given-names: Jingkang
+    - family-names: Ahmadi
+      given-names: Seyed-Ahmad
+    - family-names: Decker
+      given-names: Julian
+    - family-names: zu Eulenburg
+      given-names: Peter
+    - family-names: Zwergal
+      given-names: Andreas
+    - family-names: Flanagin
+      given-names: Virginia L.
+    - family-names: Wuehr
+      given-names: Max
